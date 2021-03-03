@@ -15,8 +15,10 @@
 from openfermionprojectq import TimeEvolution
 from openfermion.ops import FermionOperator, QubitOperator
 from openfermion.transforms import jordan_wigner
-from openfermion.utils import (uccsd_generator, uccsd_singlet_generator,
+from openfermion.circuits import (uccsd_generator, uccsd_singlet_generator,
                                uccsd_singlet_paramsize)
+#from openfermion.utils import (uccsd_generator, uccsd_singlet_generator,
+                               #uccsd_singlet_paramsize)
 
 import projectq
 import projectq.setups
